@@ -120,7 +120,7 @@ console.log(panagram.some(letterAWords)); // returns true if true
 hasAllLetters = (arr) => {
   let splitArr = arr.join('').toLowerCase()
   if(splitArr.match('a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z')) {
-    // did not want to use RegEx for this as instructed
+    // did not use RegEx for this, as instructed
     return true
   } else {
     return false
